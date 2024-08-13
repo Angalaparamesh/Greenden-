@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 text="2xl">GREENDEN</h1>
+        
+        <svg  class=" w-6 h-6 md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+          <ul class="flex gap-5 text-gray-600 hidden md:flex" >
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a  class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a  class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+   <!--Contact Section-->
+   <section>
+    <div class="text-center bg-green-900 p-5 text-white m-5">
+       <h1 class="font-bold text-3xl mb-2">Contact Us</h1>
+        <p>We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p>
+        <div>
+            <h3 class="m-3">First Name</h3>
+            <input type="text" placeholder="Eg: Paramesh"class="p-2" style="width:50%;">
+            <h3 class="m-3">Last Name</h3>
+            <input type="text" placeholder="Eg : Aki" class="p-2" style="width:50%;">
+            <h3 class="m-3">Your Email</h3>
+            <input type="email" placeholder="paramesh@okok.com" class="p-2" style="width:50%;">
+            <h3 class="m-3">Phone Number</h3>
+            <input type="Number" placeholder="Enter 10 digits" class="p-2" style="width:50%;">
+            <h3 class="m-3">Your Message</h3>
+            <textarea placeholder="Type Message..." class="p-2" style="width:50%;"></textarea>
+            <br>
+            <button class="bg-black text-white p-3 m-2 underline"><a href="final.html">Subscribe</a></button>
+        </div>
+    </div>
+   </section>
+
+
+    <!--Footer Section-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Style Your Space with Nature</p>
+        <p>@2024 Greenday.com</p>
+    </section>
+</body>
+</html>

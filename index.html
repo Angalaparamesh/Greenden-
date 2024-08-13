@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS CDN Link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Responsive Navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 text="2xl">GREENDEN</h1>
+        
+        <svg  class=" w-6 h-6 md:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+          <ul class="flex gap-5 text-gray-600 hidden md:flex" >
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a  class="hover:underline hover:text-black" href="product.html">Products</a>
+            </li>
+            <li>
+                <a  class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Header Section-->
+    <section class="bg-green-100 p-4 md:p-10 flex justify-center">
+        <div>
+        <p class="mb-4">We offer you a wide range of Artificial and Natural Flowers</p>
+        <h2 class="font-bold text-3xl md:text-5xl mb-5">Plants for your Interior</h2>
+        <div>
+            <button class="bg-black rounded p-2 text-white">Shop Now</button>
+            <button class="border border-black rounded p-2">Watch Video</button>
+        </div>
+        <p class="mt-5">160+ Plant Species | 100+ Clients</p>
+    </div>
+    <div class="hidden md:block p-5">
+        <img src="./images/p1.webp" alt="Header Image" class="w-80 rounded">
+    </div>
+    </section>
+
+    <!--About Section-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5">About Us</h1>
+        <p>This site for those who admire the beauty and hormony of nature</p>
+        <div class="md:flex">
+            <div class="border border-black p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                  </svg>
+                  
+                <h2 class="text-xl font-medium">Large Assortment</h2>
+                <p>The Fiddle Leaf Fig is a showstopper with its large, glossy, violin-shaped leaves. Perfect for adding a touch of drama to any room, this plant thrives in bright, indirect light and makes a bold statement in modern or traditional interiors. Easy to care for with occasional watering, it’s a favorite among interior designers and plant enthusiasts alike.The Snake Plant, also known as Mother-in-Law’s Tongue, is the ultimate low-maintenance plant. Its tall, sword-like leaves are not only striking but also known for their air-purifying properties. Ideal for beginners, this plant can tolerate low light and irregular watering, making it perfect for busy households or office spaces.</p>
+            </div>
+            <div class="border border-black p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                  </svg>
+                  
+                <h2 class="text-xl font-medium">Free and Fast Shipping</h2>
+                <p>This curated assortment of succulents offers a variety of shapes, colors, and textures. Perfect for small spaces, these hardy plants thrive on neglect and require minimal watering. They’re great for sunny windowsills, desks, or as part of a succulent garden. A great choice for plant lovers looking to start or expand their collection.The Peace Lily is a classic choice for both seasoned plant enthusiasts and beginners. With its elegant white blooms and lush green leaves, it’s not only beautiful but also an excellent air purifier. Thriving in low to medium light, this plant is perfect for adding a touch of tranquility to bedrooms, living rooms, or offices.</p>
+            </div>
+            <div class="border border-black p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                  </svg>
+                  
+                <h2 class="text-xl font-medium">24/7 Support</h2>
+                <p>Aloe Vera is not only an attractive succulent but also a practical plant to have around the house. Known for its medicinal properties, the gel inside the leaves can be used to soothe burns and skin irritations. This easy-to-care-for plant requires bright light and minimal watering, making it a great addition to kitchens, bathrooms, or any sunny spot.The Pothos is a versatile and resilient plant, known for its trailing vines and heart-shaped leaves. Available in various shades of green, including variegated varieties, this plant is perfect for hanging baskets, shelves, or as a climbing plant. It thrives in low to bright indirect light and is highly tolerant of different conditions, making it a top pick for any space.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Best Sellers-->
+    <section class="p-4 text-center">
+          <h1 class="font-bold mt-5 text-3xl">Best Sellers</h1>
+          <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+          <div>
+            <img src="./images/pot4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="No Image">
+            <h1>Rose Plant</h1>
+            <p>$20</p>
+          </div>
+          <div>
+            <img src="./images/pot3.jpg" alt="No Image" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Spider Plant</h1>
+            <p>$50</p>
+          </div>
+          <div>
+            <img src="./images/pot2.jpg" alt="No Image" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1>Snake Plant</h1>
+            <p>$70</p>
+          </div>
+          <div>
+            <img src="./images/pot1.jpg" alt="No Image" class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <h1> Plant</h1>
+            <p>$80</p>
+          </div>
+        </div>
+    </section>
+    
+    <!--Customer Reviews-->
+    <section>
+      <h1 class="text-3xl font-bold mt-5 text-center">Customer reviews</h1>
+      <div class="flex flex-col gap-5 justify-center text-white m-5">
+        <div class="bg-green-900 p-5 container">
+          <p>My plants have never looked healthier! The drainage system really makes a difference</p>
+          <p class="font-bold text-yellow-300">--👩Jenny Mathew</p>
+        </div>
+        <div class="bg-green-900 p-5 container">
+          <p>These pots are the perfect mix of style and functionality. Love the eco-friendly aspect too!</p>
+          <p class="font-bold text-yellow-300">--🧑Dennis Ritchie</p>
+        </div>
+        <div class="bg-green-900 p-5 container">
+          <p>I bought a few as gifts, and they were a hit! The personalized engraving made them extra special.</p>
+          <p class="font-bold text-yellow-300">--🧓guido Van Rossum</p>
+        </div>
+      </div>
+    </section>
+
+    <!--News Letter-->
+    <section class="text-center">
+      <h1 class="text-3xl font-bold mt-5 text-center">Join Our News Letter</h1>
+      <p>Signup for our Email newspaper to get excessive discounts, updated, and more</p>
+      <input type="text" class="border border-black p-2 m-3" style="width:80%;">
+      <br>
+      <button class="bg-black text-white p-3 m-1 underline"><a href="product.html">Subscribe</a></button>
+    </section>
+    
+    <!--Footer-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>Grow Green, Live Clean</p>
+        <p>@2024 Greenday.com</p>
+    </section>
+</body>
+</html>
